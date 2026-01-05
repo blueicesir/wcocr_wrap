@@ -1,6 +1,6 @@
 // 2026年1月5日 - golang调用https://github.com/swigger/wechat-ocr/项目的wcocr.dll实现安装了微信的电脑做OCR文字识别
 // 此为类的写法
-package wcocr_wrap
+package github.com/blueicesir/wcocr_wrap
 
 import (
 	"os"
@@ -187,5 +187,6 @@ func main_test() {
 	}else{
 		fmt.Printf("错误：请给一个需要进行ocr识别的图像文件\n%s demo.png\n",os.Args[0])
 	}
+
 
 }
